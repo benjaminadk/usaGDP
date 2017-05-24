@@ -1,0 +1,57 @@
+
+body { background:rgba(221,161,236,.56);
+       font-family:"Dosis",Arial,sans-serif;
+}
+body:after {
+    content:"";
+    background:rgba(60, 188, 113, 0.53);
+    position:fixed;
+    top:20%;
+    bottom:50%;
+    right:0;
+    left:0;
+    z-index:-1;
+}
+.svgWrap{
+  display:flex;
+  width: 70%;
+  height:auto;
+  margin:30px auto;
+  border: 15px outset rgba(161, 228, 236, 0.56);
+  border-radius: 15px;
+  justify-content:center;
+  background-color:white;
+  box-shadow:1px 1px 10px;
+}
+.bar{
+  fill: mediumseagreen;
+
+}
+#bar:hover{
+  fill:rgba(221,161,236,.56);
+}
+#tooltip{
+  height: 50px;
+  width:150px;
+  position:absolute;
+  display:flex;
+  background-color: lightskyblue;
+  font-size: 16px;
+  justify-content:center;
+  text-align:center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom:5px
+  box-shadow: 1px 1px 10px 3px black;
+}
+
+#footer{
+  font-size:10px;
+  text-align:center;
+}
+#credits{
+  font-size:8px;
+  text-align:center;
+}
+
